@@ -22,6 +22,7 @@ def check_input(word='', tried_letters=[], mode='start'):
                     print(f"Отлично, вы угадали букву\n")
                     return True, user_input
                 else:
+                    print(f"К сожалению, вы не угадали букву\n")
                     return False, user_input
             else:
                 print('Некорректный ввод.', end=' ')
